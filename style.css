@@ -13,16 +13,20 @@ body {
   height: 100vh;
 }
 
-header {
+header { display : flex;
+  justify-content: space-between;
   /* your code */
 }
 
 main {
+  display:flex;
   /* your code */
 }
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
   /* your code */
 }
 main a {
@@ -34,6 +38,7 @@ main a {
 
 .dog-list-container {
   /* your code */
+  display: flex;
 }
 
 .fluid-text {
